@@ -32,7 +32,7 @@ const AddTimer = ({ timers = [], setTimers,timersData }) => {
         onChange={(e) => {
           setGetSecond(e.target.value);
         }}
-        placeholder="Enter your name"
+        placeholder="Second"
       />
       <button
         className="w-64 h-12 rounded-none bg-gray-300 px-4 my-6 hover:bg-gray-500"
